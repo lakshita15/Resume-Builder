@@ -31,12 +31,9 @@ position: relative;
   background-image: url("../static/images/templatebackground.png");
   background-repeat: no-repeat;
     background-size: cover;
-  position: relative;
-    width: 105%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  
+
+    width: 90vw;
+    margin: auto;
     background-size: 100vw;   
     background-attachment: fixed;
 }
@@ -47,8 +44,17 @@ position: relative;
     cursor: grab;
     position: relative;
     border: 1px solid black;
-    margin: 12px;
+    margin: 12px auto;
 }
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+
 
 .template img {
   background: linear-gradient(45deg, white, grey );
