@@ -19,7 +19,7 @@ const Header = (props) => {
     return (
         <div className="header">
             <div className="header-logo">
-            <Link to="/"><img src="https://www.pepcoding.com/images/logo.png" alt=""/></Link>
+            <Link to="/"><img src="https://thumbs.dreamstime.com/b/letter-rb-symbol-linked-simple-geometric-design-logo-vector-173671173.jpg" alt=""/></Link>
             </div>
             <div className="header-links">
                 {auth.uid ? 

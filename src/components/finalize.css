@@ -23,3 +23,15 @@
 .final-templates{
 
 }
+.download-btn{
+    top: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.btn{
+    width: 100%;
+   
+}

@@ -5,7 +5,7 @@ import Preview from "./preview";
 import { Link } from "react-router-dom";
 import {skinCodes} from "../Constants/skinCodes";
 import { updateSkin } from "../actions/documentActions";
-
+import Pdf from "react-to-pdf"
 
 
 
@@ -30,11 +30,19 @@ class Finalize extends Component {
 
 
   render() {
+    let ref = React.createRef();
     let { contact, education , skinCode } = this.state;
     return (
       <div className="finalize">
-        <div className="final-preview">
+        <div className="final-preview"  ref={ref} >
           <Preview contact={contact} education={education}></Preview>
+        </div>
+        <div className="download-btn">
+          <Pdf targetRef={ref} filename="MyResume.pdf" scale={1.}>
+            {({ toPdf }) => (
+              <button className="btn" onClick={toPdf}>DOWNLOAD</button>
+            )}
+          </Pdf>
         </div>
         <div className="final-templates">
 

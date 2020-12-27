@@ -7,6 +7,8 @@ import image from "../static/images/softskill.png"
 import "./templates.css";
 import { updateSkin } from '../actions/documentActions';
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -15,6 +17,7 @@ class Templates extends Component {
   state = {
     skinCode: this.props.skinCode
   }
+
   
   handleSkinSelect = (skinCode) => {
     //  console.log(skinCode);
@@ -37,6 +40,15 @@ class Templates extends Component {
 
 
   render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      //nextArrow: <SampleNextArrow />,
+      //prevArrow: <SamplePrevArrow />
+    };
     let { skinCode } = this.state;
     return (
       <React.Fragment>
@@ -78,19 +90,26 @@ class Templates extends Component {
 
             <p> <h4>Avoid hours of online research and wasted time playing with margins in Microsoft Word and let our resume generator make a resume for you. We guide you through creating each resume section step-by-step — you just need to fill in the blanks. With our online resume builder, you can create a resume that showcases your greatest strengths and unique professional and educational experiences.</h4></p>
           </div>
-          <div className="templates-styles">
+
+          <Slider {...settings}>
+          {/*<div className="templates-styles">*/}
             {skinCodes.map((skin) => {
               let className = skin.value ==skinCode ? "selected-skin" : "";
-              return <div key={skin.id} className={`template ${className}`} >
+              return (
+              <div className="templates-styles">
+              <div key={skin.id} className={`template ${className}`} >
                
                 <img src={`/images/${skin.value}.svg`} alt="" />
                 <button class="template-btn" onClick={() => { this.handleSkinSelect(skin.value) }}>USE TEMPLATE</button>
               </div>
+              </div>
+              )
                
             })}
-          </div>
+          {/*</div>*/}
+          </Slider>
         </div>
-
+        
 
       </React.Fragment>
     );

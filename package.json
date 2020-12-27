@@ -11,9 +11,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-slick": "^0.27.13",
+    "react-to-pdf": "0.0.13",
     "redux": "^4.0.5",
     "redux-firestore": "^0.14.0",
     "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

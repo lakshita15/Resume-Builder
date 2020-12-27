@@ -122,7 +122,7 @@ const Landing = () => {
             <footer>
         <div class="footer">
           <ul class="footer-text">
-            <li class="text-value"><a  href= "">About us</a></li>
+            <li class="text-value"><Link to="/about">About Us</Link></li>
            
           </ul>
           <ul class="social-link">

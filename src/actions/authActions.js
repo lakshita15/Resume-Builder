@@ -93,4 +93,3 @@ export const signup = (userDetails)=>{
 
     }
 }
-// git@github.com:lakshita15/Resume-Builder.git
