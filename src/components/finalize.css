@@ -1,0 +1,25 @@
+.finalize{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-image: url(../static/images/finalisebg.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+.final-preview{
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+    width: 50%;
+    background: linear-gradient(45deg, grey, white,pink);
+    background: linear-gradient(45deg, grey, white,pink);
+    border: 5px solid palevioletred;
+}
+.final-templates{
+
+}

@@ -1,0 +1,186 @@
+.preview-header{
+    height: 72px;
+    width: 434px;
+    display: flex;
+    justify-content: center;
+    /* padding: 15px; */
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    padding-left: 8px;
+    padding-top: 14px;
+}
+
+.name{
+    width: fit-content;
+    display: flex;
+    text-decoration: underline purple;
+    padding-left: 10px;
+
+}
+.fname{
+ font-size: xx-large;
+ font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-left: 40px;
+ text-decoration: underline purple;
+}  
+.lname{
+    display: flex;
+    font-size: xx-large;
+    font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3px;
+}
+.address{
+    display: flex;
+    margin-top: 69px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* width: 527px; */
+    margin-left: -308px;
+    min-width: fit-content;
+    text-decoration: underline;
+
+}
+.street , .city , .state, .country, .pin , .Email , .Phone{
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+.professional-summary{
+display: flex;
+margin-top: 50px;
+/* border: 2px solid blue; */
+}
+.professional-summary-heading{
+    /* border: 1px solid black; */
+    width: 150px;
+    overflow-wrap: anywhere;
+    color: blue;
+
+}
+.details-prof{
+    overflow-wrap: anywhere;
+    margin-top: 30px;
+    margin-left: -178px;
+    width: 300px;
+    min-height: 20px;
+    max-height: 300px;
+    font-style: oblique;
+   
+
+
+}
+.profession-details{
+    display: inline;
+    align-items: center;
+    font-weight: bold;
+   justify-content: center;
+margin-left: 20px;
+   text-align: center;
+
+    
+}
+
+.skills-box{
+    margin-top: 36px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.skill-heading{
+    /* font-family: cursive; */
+   color: blue;
+    width: 100px;
+    display: flex;
+    
+}
+.skills-description{
+    overflow-wrap: anywhere;
+    margin-left: 47px;
+}
+.two-li{
+    display: flex;
+    margin-left: 2px;
+    width: 300px;
+    place-content: space-between;
+    /* font-family: fantasy                      ; */
+}
+.experience-box{
+    margin-top: 36px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* height: 400px; */
+}
+.experience-heading{
+   
+    width: 200px;
+    color: blue;
+    display: flex;
+}
+.experience-description{
+    overflow-wrap: anywhere;
+    margin-left: 16px;
+}
+.Education{
+    margin-top: 36px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.cgpa,
+    .educationCity,
+    .educationState,
+    .degree,
+    .college,
+    .graduationMonth,
+    .graduationYear {
+        margin-right: 3px;
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    
+    .degree,
+    .college,
+    .graduationMonth,
+    .graduationYear {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .cgpa {
+        font-size: 20px;
+    }
+    .course-detail,
+    .edu-contact,
+    .edu-end {
+        display: flex;
+    }
+    
+    .education-details {
+       
+    }
+    
+    .line1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .education-heading{
+    
+    width: 200px;
+    display: flex;
+    color: blue;
+    }
+    .li{
+        width: 50%;
+    }
+    .skinimage{
+        border-radius: 20px;
+        height: 50px;
+    }
+    .image{
+
+    }

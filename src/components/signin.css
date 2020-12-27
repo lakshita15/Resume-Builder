@@ -1,0 +1,39 @@
+.fullpage{
+    display: flex;
+    height: 500px;
+    margin: auto;
+    width: fit-content;
+}
+.register{
+    height:500px;
+    width: 600px;
+    padding: 50px;
+    margin: 80px;
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+
+}
+.email , .password , .confirmation{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin-top: 20px;
+}
+#email , #password , #confirmation{
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    color: #545d69;
+    font-weight: 500px;
+    font-size: 20px;
+    background-color: #f2f5fa;
+    padding: 10px;
+}
+.register-btn{
+    margin-top: 40px;
+}
+#register-img{
+   width : 500px;
+   height: 500px;
+   margin-top: 80px;
+   margin-left: 30px;
+}

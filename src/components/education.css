@@ -1,0 +1,8 @@
+.education{
+    background-image: url(../static/images/image1.png);
+    display:flex;
+    background-size: contain;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom:50px;
+}

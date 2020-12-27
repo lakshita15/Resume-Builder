@@ -1,0 +1,184 @@
+.landing-page{
+    text-align: center;
+    width: 50%;
+    height: 346px;
+    margin: auto;
+}
+
+.landing-page .logo{
+    height: 400px;
+    width: 500px;
+    margin: auto;
+}
+
+
+.landing-page .logo img{
+    height: 83%;
+    width: 100%;
+    object-fit: contain;
+}
+.bgimg{
+    
+    object-fit: contain;
+    height: 395px;
+
+}
+.full-page{
+   
+    background: linear-gradient(45deg, grey, white,pink);
+    min-height: 500px;
+    max-height: 100%;
+   
+}
+body{
+    margin: 0;
+    
+    color: #4a4a4a;
+    font-family: "Noto Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    fill: #4a4a4a;
+}
+.wrap{
+    margin: 0 auto;
+    padding-right: .75em;
+    padding-left: .75em;
+    max-width: 75.25em;
+    width: 100%;
+}
+
+.companies{
+  background-image: url("../static/images/companies.png"); 
+ 
+  margin-top: 22px;
+  
+  box-shadow: 1px 1px 2px 2px grey;
+  background-blend-mode: color-dodge;
+  background-color: cadetblue;
+  min-height: 380px;
+  max-height: 600px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.company-background{
+    width: 100%;
+    margin-top: 15px;
+    height: 300px;
+    position: relative;
+}
+.company-heading{
+    margin-top: 2px;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.logoss{
+    display: flex;
+   
+    justify-content: center;
+    
+}
+.logoss-img{
+    position: sticky;
+    width: 700px;
+    height: 300px;
+}
+.FAQ{
+    padding-top: 3.25em;
+    padding-bottom: 1em;
+    background-color: #fafafa;
+
+}
+#faq{
+    max-width: 49.5em;
+    margin: 0 auto;
+    padding-right: .75em;
+    padding-left: .75em;
+    background-image: url("../static/images/bubble.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  position: relative;
+    width: 100%;
+}
+.faq-heading{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+.question-section{
+
+}
+.faq-item{
+    border-bottom: 1px solid #eee;
+}
+
+.faq-item-header{
+    padding-top: 2.25em;
+    padding-bottom: 2.25em;
+}
+.entry-content{
+    margin-bottom: 2.25em;
+    color: darkblue;
+    font-style: oblique;
+    font-size: larger;
+}
+
+  footer {
+    background-color: rgb(58, 56, 56);
+    height: 144px;
+    margin-top: 7px;
+  }
+  .social-link {
+    display: flex;
+    width: 40%;
+  }
+  .text-value {
+    padding-right: 6%;
+  }
+  .footer-text {
+    display: flex;
+    width: 70%;
+    padding-right: 6%;
+  }
+  .footer-parent {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2%; */
+    padding-top: 3%;
+    padding-left: 4%;
+  }
+  .text-value a,
+  .icon-footer {
+    font-size: 160%;
+    color: white;
+  }
+  .social-link li {
+    padding-right: 10%;
+  }
+  .footer-p {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 140%;
+  }
+  .sticky.other{
+    position: relative;
+  }
+  fa-facebook{
+    color: blue;
+}
+.fa-twitter-square{
+    color: skyblue;
+}
+.fa-instagram{
+    background: linear-gradient(45deg, pink, orange,purple);
+}
+li{
+    list-style: none;
+}
+.footer{
+    display: flex;
+    background: black;
+}

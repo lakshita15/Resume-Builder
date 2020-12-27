@@ -1,0 +1,21 @@
+.about{
+display: flex;
+margin-top:50px;
+justify-content: space-around;
+}
+
+.left-about{
+width:50%;
+/* background: lightgrey; */
+margin: auto;
+}
+
+.right-about{
+    width: 100%;
+    margin-top: 98px;
+    margin-left: 20px;
+}
+
+.right-about img{
+    width: 100%;
+}
