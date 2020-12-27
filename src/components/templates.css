@@ -49,9 +49,16 @@ position: relative;
 
 .slides .slick-prev,
 .slides .slick-next {
-  position: absolute;
   top: 50%;
   z-index:1;
+}
+
+.slick-next{
+  margin-right: 5%;
+}
+
+.slick-prev{
+  margin-left: 5%;
 }
 
 
