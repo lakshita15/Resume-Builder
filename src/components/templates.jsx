@@ -91,23 +91,29 @@ class Templates extends Component {
             <p> <h4>Avoid hours of online research and wasted time playing with margins in Microsoft Word and let our resume generator make a resume for you. We guide you through creating each resume section step-by-step — you just need to fill in the blanks. With our online resume builder, you can create a resume that showcases your greatest strengths and unique professional and educational experiences.</h4></p>
           </div>
 
-          <Slider {...settings}>
-          {/*<div className="templates-styles">*/}
+          
+          <div className="templates-styles">
+          
+          <Slider>
             {skinCodes.map((skin) => {
               let className = skin.value ==skinCode ? "selected-skin" : "";
               return (
-              <div className="templates-styles">
-              <div key={skin.id} className={`template ${className}`} >
-               
-                <img src={`/images/${skin.value}.svg`} alt="" />
-                <button class="template-btn" onClick={() => { this.handleSkinSelect(skin.value) }}>USE TEMPLATE</button>
+                <div className="template-container">
+              
+                  <div key={skin.id} className={`template ${className}`} >
+
+                    <img src={`/images/${skin.value}.svg`} alt="" />
+                    <button class="template-btn" onClick={() => { this.handleSkinSelect(skin.value) }}>USE TEMPLATE</button>
+                  </div>
+              
               </div>
-              </div>
+              
               )
                
-            })}
-          {/*</div>*/}
-          </Slider>
+            })}</Slider>
+          
+          </div>
+          
         </div>
         
 
