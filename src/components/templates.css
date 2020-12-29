@@ -35,16 +35,16 @@ position: relative;
     width: 90vw;
     margin: auto;
     background-size: 100vw;   
-    background-attachment: fixed;
+   
 }
 
 .template {
-  height: 280px;
-    width: 250px;
-    cursor: grab;
-    position: relative;
-    border: 1px solid black;
-    margin: 12px auto;
+  height: 415px;
+  width: 368px;
+  cursor: grab;
+  position: relative;
+  border: 1px solid black;
+  margin: 51px auto;
 }
 
 .slides .slick-prev,
@@ -68,21 +68,25 @@ position: relative;
   height: 100%;
   width: 100%;
   box-shadow: 4px 3px 12px aliceblue
+  
 }
 
 .template img:hover {
   opacity: 0.6;
+  transform: scale(1.2);
+  opacity: 1;
+  height: 400px;
 }
 
 .template-btn {
     background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
     color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 12px;
     border:1px solid white;
     position: absolute;
     top:50%;
-    left: 25%;
+    left: 28%;
     outline: none;
 }
 

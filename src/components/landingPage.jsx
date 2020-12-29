@@ -36,7 +36,7 @@ const Landing = () => {
             <div className="companies">
                 <div className="company-heading">
 
-                    <h1>COMPANIES THAT HIRE OUR STUDENTS</h1>
+                    <h1>DON'T MISS THE CHANCE TO GET PLACED IN:</h1>
                 </div>
                 <div className="logoss">
                     <img src={logoss} className="logoss-img" alt="" />
@@ -122,12 +122,12 @@ const Landing = () => {
             <footer>
         <div class="footer">
           <ul class="footer-text">
-            <li class="text-value"><Link to="/about">About Us</Link></li>
-           
+            <li class="text-value"><Link to="/about">ABOUT US</Link></li>
+            <li class="text-value"><Link to="/templates">FREE TEMPLATES</Link></li>
           </ul>
           <ul class="social-link">
-            <li><a href="#"><i class="fab fa-facebook icon-footer"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter-square icon-footer"></i></a></li>
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook icon-footer"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter-square icon-footer"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram icon-footer"></i></a></li>
             <li><a href="#"><i class="fab fa-snapchat-square icon-footer"></i></a></li>
           </ul>

@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 import {skinCodes} from "../Constants/skinCodes";
 import { updateSkin } from "../actions/documentActions";
 import Pdf from "react-to-pdf"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -18,6 +21,7 @@ class Finalize extends Component {
 
   handleSkinSelect = (skinCode) =>{
     //  console.log(skinCode);
+    
     this.props.changeSkinCode(skinCode);
    }
 
@@ -30,6 +34,17 @@ class Finalize extends Component {
 
 
   render() {
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      //nextArrow: <SampleNextArrow />,
+      //prevArrow: <SamplePrevArrow />
+    };
+
     let ref = React.createRef();
     let { contact, education , skinCode } = this.state;
     return (
@@ -45,6 +60,7 @@ class Finalize extends Component {
           </Pdf>
         </div>
         <div className="final-templates">
+          <Slider>
 
           {skinCodes.map( (skin) =>{
             let className = skin.value ==skinCode ? "selected-skin" : "";
@@ -53,6 +69,7 @@ class Finalize extends Component {
             <button class="template-btn" onClick = { ()=> {this.handleSkinSelect(skin.value)} }>USE TEMPLATE</button>
           </div>
           })}
+          </Slider>
 
         </div>
       </div>

@@ -1,3 +1,11 @@
+
+@keyframes mymove {
+    0% {border-radius: 10px 10px 10px 100px;}
+   25% {border-radius: 100px 10px 20px 10px;}
+   50% {border-radius: 10px 100px 10px 20px;}
+   75% {border-radius: 20px 10px 100px 10px;}
+  100% {border-radius: 10px 10px 10px 100px;}
+}
 .fullpage{
     display: flex;
     height: 500px;
@@ -31,9 +39,38 @@
 .register-btn{
     margin-top: 40px;
 }
-#register-img{
-   width : 500px;
-   height: 500px;
-   margin-top: 80px;
-   margin-left: 30px;
+.signin-img{
+    width: 500px;
+    height: 367px;
+    margin-top: 6px;
+    margin-left: 30px;
+    margin: 34px;
+}
+.signin-form-details{
+      color: black;
+  
+    
+    font-size: 24px;
+    font-variant: petite-caps;
+    display: flex;
+    margin-left: 355px;
+}
+.details{
+    width: 450px;
+    height: 368px;
+    margin-top: 9px;
+    color: black;
+    
+    font-size: 24px;
+    font-feature-settings: "pcap";
+    font-variant: petite-caps;
+   
+}
+.signin-heading{
+    align-content: center;
+    margin-left: 155px;
+    display: flex;
+    text-align: center;
+    font-size: 26px;
+    justify-content: center;
 }

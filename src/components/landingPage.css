@@ -100,6 +100,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   position: relative;
+  margin-top: 23px;
+    border: 2px solid blueviolet;
     width: 100%;
 }
 .faq-heading{
@@ -167,7 +169,7 @@ body{
   .sticky.other{
     position: relative;
   }
-  fa-facebook{
+.fa-facebook{
     color: blue;
 }
 .fa-twitter-square{

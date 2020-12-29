@@ -31,9 +31,27 @@
 .register-btn{
     margin-top: 40px;
 }
-#register-img{
-   width : 500px;
-   height: 500px;
-   margin-top: 80px;
-   margin-left: 30px;
+.signup-heading{
+    align-content: center;
+    margin-left: 155px;
+    display: flex;
+    text-align: center;
+    font-size: 26px;
+    justify-content: center;
+}
+.signup-form-details{
+    color: black;
+  
+    
+    font-size: 24px;
+    font-variant: petite-caps;
+    display: flex;
+    margin-left: 355px;
+}
+.signup-img{
+    width: 500px;
+    height: 367px;
+    margin-top: 6px;
+    margin-left: 30px;
+    margin: 34px;
 }

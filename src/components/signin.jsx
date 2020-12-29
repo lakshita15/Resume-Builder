@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import signinImg from "../static/images/login.jpg"
 import "./signin.css";
 import { connect } from "react-redux";
 // import {auth, provider} from "../firebase/fbconfig";
@@ -32,11 +32,14 @@ class SignIn extends Component {
 
   render() {
     return (
+      <React.Fragment>
       <div className="signin-form">
         <div className="signin-heading">
           <h1>Sign In</h1>
         </div>
         <div className="signin-form-details">
+          <div className="details">
+
           <div className="input-group full">
             <label htmlFor="">Email</label>
             <input
@@ -51,8 +54,7 @@ class SignIn extends Component {
           <div className="input-group full">
             <label htmlFor="">Password</label>
             <input
-              type="text"
-              id="password"
+             type="password" name="password" id="password" placeholder="Password"
               value={this.state.password}
               onChange={(e) => {
                 this.onChangeHandler(e);
@@ -64,12 +66,19 @@ class SignIn extends Component {
               Sign In
             </button>
           </div>
-
+         
           <div className="input-group full">
             {this.props.message && <span>{this.props.message}</span>}
           </div>
+          </div>
+          <div>
+          <img src={signinImg} alt="" className="signin-img"/>
+          </div>
         </div>
+
+
       </div>
+      </React.Fragment>
     );
   }
 }
