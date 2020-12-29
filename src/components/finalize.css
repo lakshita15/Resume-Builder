@@ -15,9 +15,7 @@
 
 .final-preview{
     box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
-    width: 40%;
     
-    height: 60%;
     background: linear-gradient(45deg, grey, white,pink);
     border: 5px solid palevioletred;
 }
